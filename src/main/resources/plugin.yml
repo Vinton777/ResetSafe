@@ -1,0 +1,17 @@
+name: ResetSafe
+version: 1.0.0
+main: dev.vinton.resetsafe.ResetSafePlugin
+api-version: '1.21'
+folia-supported: true
+author: Vinton777
+description: Safely relocate returning players after a resource world reset.
+website: https://github.com/Vinton777/ResetSafe
+commands:
+  resetsafe:
+    description: Manage resource world reset protection.
+    usage: /resetsafe <status|mark|setspawn|reload>
+    permission: resetsafe.admin
+permissions:
+  resetsafe.admin:
+    description: Manage ResetSafe.
+    default: op

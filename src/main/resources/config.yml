@@ -1,0 +1,11 @@
+# Exact names of worlds which your server resets. Add all resource worlds here.
+resource-worlds:
+  - resource
+
+# Destination used before a returning player is placed into a reset world.
+# Use /resetsafe setspawn while standing at your preferred safe point.
+safe-world: world
+safe-location:
+  use-world-spawn: true
+
+message: "Your resource world was reset while you were away. You were moved to safety."
